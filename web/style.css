@@ -1,0 +1,74 @@
+body {
+    background-color: indianred;
+}
+
+div {
+    width: 70%;
+    margin: auto;
+    padding: 2em;
+}
+
+table {
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    background-color: indianred;
+    background-image: url("board.png");
+    border: 0;
+}
+
+td {
+    width: 5%;
+    height: 5%;
+    position: relative;
+    border-radius: 100%;
+    border: 0;
+    background-color: transparent;
+}
+td:hover {
+  border: 0.1em solid #753434;
+  background-color: indianred;
+}
+
+section {
+    width: 70%;
+    float: left;
+}
+
+aside {
+    float: left;
+    width: 100%;
+    margin: 1.5em auto auto;
+}
+
+button {
+    width: 49%;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #753434;
+    background: 0;
+    margin: 0 auto 0.3em 0.1em;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 600;
+    font-size: 18px;
+    color: #753434;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+button:hover {
+    background-color: #753434;
+    color: indianred;
+}
+
+p {
+    width: 100%;
+    color: #753434;
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 600;
+    font-size: 18px;
+
+}
