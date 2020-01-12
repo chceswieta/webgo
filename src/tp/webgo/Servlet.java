@@ -33,7 +33,7 @@ public class Servlet extends HttpServlet {
                 String[] results = game.endGame().split(" ");
                 String message;
                 if (results[2].equals(results[4])) message = "Tie!<br/>";
-                else message = Integer.parseInt(results[2]) > Integer.parseInt(results[2])? "You win!<br/>" : "You lose!<br/>";
+                else message = Integer.parseInt(results[2]) > Integer.parseInt(results[4])? "You win!<br/>" : "You lose!<br/>";
                 message += "Your score: "+results[2]+"<br/>";
                 message += "AI's score: "+results[4]+"<br/>";
                 message += "Click on the board to restart.";
